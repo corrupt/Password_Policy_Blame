@@ -11,4 +11,4 @@ List of web services having obscure password rules
 
 ## Web resources 
 
-* [https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/m/m02/m02011.html](BSI IT Grundschutz Katalog M 2.11 Regelung des Passwortgebrauchs) (German)
+* [BSI IT Grundschutz Katalog M 2.11 Regelung des Passwortgebrauchs](https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/m/m02/m02011.html) (German)
