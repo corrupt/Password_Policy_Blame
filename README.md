@@ -33,3 +33,4 @@ You can also use the generic mail templates, adapt them to a service you use tha
 
 1. [BSI IT Grundschutz Katalog M 2.11 Regelung des Passwortgebrauchs](https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/m/m02/m02011.html) (German)
 2. [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
+3. [NIST Guide to Enterprise Password Management](http://csrc.nist.gov/publications/drafts/800-118/draft-sp800-118.pdf) (PDF)
