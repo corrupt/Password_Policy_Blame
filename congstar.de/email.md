@@ -1,5 +1,5 @@
 __Date:__ 2016-10-13  
-__Subject:__ Anfrage an den/die Datenschutzbeauftragte(n)
+__Subject:__ Anfrage an den/die Datenschutzabteilung
 
 Sehr geehrte Damen und Herren,
 
