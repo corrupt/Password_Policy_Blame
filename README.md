@@ -18,7 +18,9 @@ Opinions vary, especially when it comes to enforcing minimum standards. It is un
 * No character-class restriction 
 
 Additionally, I expect web services to take the following measures when storing passwords:
-* Hash them using an up-to-date cryptographic hash function (e.g. [sha3](https://en.wikipedia.org/wiki/SHA-3), [whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)), or [RipeMD](https://en.wikipedia.org/wiki/RIPEMD) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1) but )
+* Hash them using an up-to-date cryptographic hash function (e.g. [sha3](https://en.wikipedia.org/wiki/SHA-3), [whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)), or [RipeMD](https://en.wikipedia.org/wiki/RIPEMD) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
+* Use [salts](https://en.wikipedia.org/wiki/Salt_(cryptography)) to prevent duplicate password hashes for the same plain text.
+* Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 
 ## Web resources 
 
