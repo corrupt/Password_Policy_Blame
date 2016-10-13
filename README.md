@@ -15,7 +15,7 @@ Opinions vary, especially when it comes to enforcing minimum standards. It is un
 * 12 characters at minimum
 * At least three out of four character classes (lowercase letters, uppercase letters, numbers, symbols)
 * No Limit in password length
-* No character-class restriction 
+* No character-class restriction (especially no restriction in symbols like the NIST _10 common_ (the symbols appearing on a US keyboard when holding shift and pressing the keys 0 through 9))
 
 Additionally, I expect web services to take the following measures when storing and handling passwords (a nice guide can be found under [2]):
 * Hash them using an up-to-date cryptographic hash function (e.g. [sha3](https://en.wikipedia.org/wiki/SHA-3), [whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)), or [RipeMD](https://en.wikipedia.org/wiki/RIPEMD) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
