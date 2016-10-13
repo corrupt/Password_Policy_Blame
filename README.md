@@ -14,12 +14,11 @@ Repository of web services enforcing bad password policy along with emails sent 
 Opinions vary, especially when it comes to enforcing minimum standards. It is understandable to a certain degree when companies allow their users to choose simple passwords they can remember. It is, however, completely inscrutable to enforce limits to the character classes or number of characters a password may contain. Hence, this is what I consider a "decent" password scheme:
 * 8 characters at minimum
 * At least one out of each of the four character classes (lowercase letters, uppercase letters, numbers, symbols)
-* 128 characters at maximum
+* 128 characters at maximum (or the length limit of the hash function used)
 * No character-class restriction (especially no restriction in symbols like the NIST _10 common_ (the symbols appearing on a US keyboard when holding shift and pressing the keys 0 through 9))
 
 Additionally, I expect web services to take the following measures when storing and handling passwords (a nice guide can be found under [2]):
-* Hash them using an up-to-date cryptographic hash function (e.g. [sha3](https://en.wikipedia.org/wiki/SHA-3), [whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)), or [RipeMD](https://en.wikipedia.org/wiki/RIPEMD) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
-* Use [salts](https://en.wikipedia.org/wiki/Salt_(cryptography)) to prevent duplicate password hashes for the same plain text.
+* Hash them using an up-to-date cryptographic hash function (e.g. [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), [scrypt](https://en.wikipedia.org/wiki/Scrypt), or [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 * Use [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) with up-to-date parameters to secure all login- and session-related tasks on their website.
 
