@@ -4,8 +4,8 @@ Sehr geehrte Damen und Herren,
 
 als Nutzer Ihres Dienstes ist mir beim Ändern meines Passwortes aufgefallen, dass Ihre Website die folgenden, mir unverständlichen Passwortrichtlinien erzwingt:
 
-* Beschränkung auf XX Zeichen
-* Mindestlänge von nur XX Zeichen
+* Beschränkung auf __XX__ Zeichen
+* Mindestlänge von nur __XX__ Zeichen
 * Verbot von Sonderzeichen
 
 Wie Ihnen sicherlich bekannt ist, ist im IT Grundschutzkatalog des Bundesministeriums für Sicherheit in der Informationstechnik [1] eine Checkliste für sichere Passwörter definiert. Darunter finden sich, vereinfacht, die folgenden Anforderungen an eine Passwortrichtlinie:
