@@ -17,12 +17,12 @@ Opinions vary, especially when it comes to enforcing minimum standards. It is un
 * No Limit in password length
 * No character-class restriction 
 
-Additionally, I expect web services to take the following measures when storing passwords:
+Additionally, I expect web services to take the following measures when storing and handling passwords (a nice guide can be found under [2]):
 * Hash them using an up-to-date cryptographic hash function (e.g. [sha3](https://en.wikipedia.org/wiki/SHA-3), [whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)), or [RipeMD](https://en.wikipedia.org/wiki/RIPEMD) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
 * Use [salts](https://en.wikipedia.org/wiki/Salt_(cryptography)) to prevent duplicate password hashes for the same plain text.
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 
 ## Web resources 
 
-* [BSI IT Grundschutz Katalog M 2.11 Regelung des Passwortgebrauchs](https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/m/m02/m02011.html) (German)
-* [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
+1. [BSI IT Grundschutz Katalog M 2.11 Regelung des Passwortgebrauchs](https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/m/m02/m02011.html) (German)
+2. [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
