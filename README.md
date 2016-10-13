@@ -23,7 +23,7 @@ Additionally, I expect web services to take the following measures when storing 
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 
 ## Why creating this repository?
-I recently switched to using a password manager. Upon renewing all my passwords to 64-character random passwords I realized how many of the web services I used for years have really bad password policies. After contacting a few of them via Twitter, I realized that many lack the willingness to do something about this. I hope that this repository will motivate more people to create and send complaint letters so as to get more and more companies to rethink their habits.
+I recently switched to using a password manager. Upon renewing all my passwords to 64-character random strings I realized how many of the web services I used for years have really bad password policies. After contacting a few of them via Twitter, I realized that many lack the willingness to do something about this. I hope that this repository will motivate more people to create and send complaint letters so as to get more and more companies to rethink their habits.
 
 ## What can I do to help?
 You can always pick one of these web services that you also use, take the email template and send it to their CPO. If you get a response that differs from the one I get, feel free to let me know, or create a pull request with up-to-date information. That also applies to services reworking their password policies without me noticing.  
