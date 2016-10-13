@@ -22,6 +22,13 @@ Additionally, I expect web services to take the following measures when storing 
 * Use [salts](https://en.wikipedia.org/wiki/Salt_(cryptography)) to prevent duplicate password hashes for the same plain text.
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 
+## Why creating this repository?
+I recently switched to using a password manager. Upon renewing all my passwords to 64-character random passwords I realized how many of the web services I used for years have really bad password rules. After contacting a few of them via Twitter, I realized that many lack the willingness to do something about this. I hope that this repository will motivate more people to create and send complaint letters so as to get more and more companies to rethink their habits.
+
+## What can I do to help?
+You can always pick one of these web services that you also use, take the email template and send it to their CIO. If you get a response that differs from the one I get, feel free to let me know, or create a pull request with up-to-date information. That also applies to services reworking their password rules without me noticing.  
+You can also use the generic mail templates, adapt them to a service you use that isn't listed here, send it, and create a pull request so other people may benefit from your readily-written email.
+
 ## Web resources 
 
 1. [BSI IT Grundschutz Katalog M 2.11 Regelung des Passwortgebrauchs](https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/m/m02/m02011.html) (German)
