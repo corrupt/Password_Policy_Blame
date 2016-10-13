@@ -18,7 +18,7 @@ Opinions vary, especially when it comes to enforcing minimum standards. It is un
 * No character-class restriction (especially no restriction in symbols like the NIST _10 common_ (the symbols appearing on a US keyboard when holding shift and pressing the keys 0 through 9))
 
 Additionally, I expect web services to take the following measures when storing and handling passwords (a nice guide can be found under [2]):
-* Hash them using an up-to-date cryptographic hash function (e.g. [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), [scrypt](https://en.wikipedia.org/wiki/Scrypt), or [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
+* Hash them using an up-to-date cryptographic hash function (e.g. [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), [argon2](https://en.wikipedia.org/wiki/Argon2), [scrypt](https://en.wikipedia.org/wiki/Scrypt), or [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 * Use [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) with up-to-date parameters to secure all login- and session-related tasks on their website.
 
