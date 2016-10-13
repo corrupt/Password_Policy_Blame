@@ -21,6 +21,7 @@ Additionally, I expect web services to take the following measures when storing 
 * Hash them using an up-to-date cryptographic hash function (e.g. [sha3](https://en.wikipedia.org/wiki/SHA-3), [whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(cryptography)), or [RipeMD](https://en.wikipedia.org/wiki/RIPEMD) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
 * Use [salts](https://en.wikipedia.org/wiki/Salt_(cryptography)) to prevent duplicate password hashes for the same plain text.
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
+* Use [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) with up-to-date parameters to secure all login- and session-related tasks on their website.
 
 ## Why creating this repository?
 I recently switched to using a password manager. Upon renewing all my passwords to 64-character random strings I realized how many of the web services I used for years have really bad password policies. After contacting a few of them via Twitter, I realized that many lack the willingness to do something about this. I hope that this repository will motivate more people to create and send complaint letters so as to get more and more companies to rethink their habits.
