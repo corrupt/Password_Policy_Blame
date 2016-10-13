@@ -1,7 +1,7 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 # Blaming Companies with bad password rules made easy.
-Repository of web services enforcing bad password rules along with emails sent to their CIOs and their responses. Feel free to grab one of these emails and re-send them to put more pressure on these companies to switch to a decent password scheme, or write a new email to a web service not in this list and create a pull request. You can use one of the given templates.
+Repository of web services enforcing bad password rules along with emails sent to their Chief Privacy Officers (CPOs) and their responses. Feel free to grab one of these emails and re-send them to put more pressure on these companies to switch to a decent password scheme, or write a new email to a web service not in this list and create a pull request. You can use one of the given templates.
 
 ## Things to look out for when using web services
 
@@ -26,7 +26,7 @@ Additionally, I expect web services to take the following measures when storing 
 I recently switched to using a password manager. Upon renewing all my passwords to 64-character random passwords I realized how many of the web services I used for years have really bad password rules. After contacting a few of them via Twitter, I realized that many lack the willingness to do something about this. I hope that this repository will motivate more people to create and send complaint letters so as to get more and more companies to rethink their habits.
 
 ## What can I do to help?
-You can always pick one of these web services that you also use, take the email template and send it to their CIO. If you get a response that differs from the one I get, feel free to let me know, or create a pull request with up-to-date information. That also applies to services reworking their password rules without me noticing.  
+You can always pick one of these web services that you also use, take the email template and send it to their CPO. If you get a response that differs from the one I get, feel free to let me know, or create a pull request with up-to-date information. That also applies to services reworking their password rules without me noticing.  
 You can also use the generic mail templates, adapt them to a service you use that isn't listed here, send it, and create a pull request so other people may benefit from your readily-written email.
 
 ## Web resources 
