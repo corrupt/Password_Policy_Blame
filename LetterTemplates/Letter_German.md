@@ -1,4 +1,4 @@
-_Subject:_ Anfrage an den/die Datenschutzbeauftragte(n)
+__Subject:__ Anfrage an den/die Datenschutzbeauftragte(n)
 
 Sehr geehrte Damen und Herren,
 
