@@ -19,6 +19,7 @@ Opinions vary, especially when it comes to enforcing minimum standards. It is un
 
 Additionally, I expect web services to take the following measures when storing and handling passwords (a nice guide can be found under [2]):
 * Hash them using an up-to-date cryptographic hash function (e.g. [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), [Argon2](https://en.wikipedia.org/wiki/Argon2), [scrypt](https://en.wikipedia.org/wiki/Scrypt), or [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) not [md5](https://en.wikipedia.org/wiki/MD5) or [sha1](https://en.wikipedia.org/wiki/SHA-1))
+* Use unique salts per password with appropriate lengths for the hash algorithm in use (e.g. at least 64 bits for PBKDF2)
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 * Use [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) with up-to-date parameters to secure all login- and session-related tasks on their website.
 
