@@ -22,6 +22,7 @@ Additionally, I expect web services to take the following measures when storing 
 * Use unique salts per password with appropriate lengths for the hash algorithm in use (e.g. at least 64 bits for PBKDF2)
 * Use one-time password-reset links instead of plain one-time passwords via email when users use the _reset password_ function.
 * Use [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) with up-to-date parameters to secure all login- and session-related tasks on their website.
+* __Do not prevent users from using copy/paste in password fields.__ This makes using a password manager with reasonably long and secure passwords a pain.
 
 ## Why creating this repository?
 I recently switched to using a password manager. Upon renewing all my passwords to 64-character random strings I realized how many of the web services I used for years have really bad password policies. After contacting a few of them via Twitter, I realized that many lack the willingness to do something about this. I hope that this repository will motivate more people to create and send complaint letters so as to get more and more companies to rethink their habits.
