@@ -3,10 +3,10 @@
 #### Password rules
 * 8-20 characters
 * allowed character groups:
-** capital letters A-Z
-** lower letters a-z
-** numbers 0-9
-** additional characters !“#$%&\’()*+,-./:;<=>?
+	- capital letters A-Z
+	- lower letters a-z
+	- numbers 0-9
+	- additional characters !“#$%&\’()*+,-./:;<=>?
 * at least three of the four given character groups have to be part of the password
 * groups of more than two characters, which are also part of the name, surname or user name are not allowed
 * not more than two times the same character in a row
