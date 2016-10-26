@@ -1,5 +1,7 @@
 pizza.de responded with the following text on 2016-10-26:
 
+![Screenshot of response in German](https://github.com/corrupt/Password_Policy_Blame/raw/master/pizza.de/response.png)
+
 This translates to the following in English:
 
 > Good Evening,
