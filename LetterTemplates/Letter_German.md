@@ -8,7 +8,7 @@ als Nutzer Ihres Dienstes ist mir beim Ändern meines Passwortes aufgefallen, da
 * Mindestlänge von nur __XX__ Zeichen
 * Verbot von Sonderzeichen
 
-Wie Ihnen sicherlich bekannt ist, ist im IT Grundschutzkatalog des Bundesministeriums für Sicherheit in der Informationstechnik (BSI) [1] eine Checkliste für sichere Passwörter definiert. Darunter finden sich, vereinfacht, die folgenden Anforderungen an eine Passwortrichtlinie:
+Wie Ihnen sicherlich bekannt ist, ist im IT Grundschutzkatalog des Bundesamts für Sicherheit in der Informationstechnik (BSI) [1] eine Checkliste für sichere Passwörter definiert. Darunter finden sich, vereinfacht, die folgenden Anforderungen an eine Passwortrichtlinie:
 
 * Mindestens 8 Zeichen
 * Nutzung von Klein- und Großbuchstaben, Sonderzeichen und Zahlen
